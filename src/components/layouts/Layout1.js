@@ -3,7 +3,7 @@ import React from "react";
 export default function Layout1() {
   return (
     <div className="mx-14 text-sm leading-7">
-        {/* general information */}
+      {/* general information */}
       <div className=" text-[#a5a5a5] p-5 ">
         <h2 className="text-[#ffffff] font-semibold text-xl pb-5">
           General Information
@@ -31,8 +31,8 @@ export default function Layout1() {
         </div>
         {/* reseaux sociaux */}
         <div className="space-x-6 pl-7 pt-2 text-lg">
-          <i class="fa-brands fa-google-plus-g"></i>
-          <i class="fa-brands fa-pinterest"></i>
+          <i className="fa-brands fa-google-plus-g"></i>
+          <i className="fa-brands fa-pinterest"></i>
           <i className="fa-brands fa-facebook-square"></i>
           <i className="fa-brands fa-twitter"></i>
         </div>

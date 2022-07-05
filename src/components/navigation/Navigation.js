@@ -44,10 +44,10 @@ export default function Navigation() {
           </h2>
         </div>
         <div className="">
-          <ul className="bg-[#100f3a] flex items-center space-x-5 text-white  divide-x  leading-[2.6] m-3 px-5">
+          <ul className="bg-[#100f3a] flex space-x-5 text-white  divide-x  leading-[2.6] m-3 px-4">
             {items.map((item) => (
               <Link to={item.slug} key={item.id}>
-                <li>{item.name}</li>
+                <li className="pl-3">{item.name}</li>
               </Link>
             ))}
           </ul>
