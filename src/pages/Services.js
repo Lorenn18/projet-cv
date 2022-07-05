@@ -6,10 +6,10 @@ import ServicesSection2 from '../components/servicesPage/ServicesSection2';
 export default function Services() {
   return (
     <Layout>
-      <div className="flex">
+      <main className="flex">
         <HomeSection1 />
         <ServicesSection2/>
-      </div>
+      </main>
     </Layout>
   );
 }

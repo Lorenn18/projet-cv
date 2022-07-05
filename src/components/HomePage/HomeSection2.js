@@ -9,7 +9,7 @@ export default function HomeSection2() {
     <div className="pt-14 pl-16">
       <div>
         <h2 className="text-[#7a798c]">Développeur full stack</h2>
-        <h1 className="text-7xl text-[#100f3a] font-bold">Justin Bieber</h1>
+        <h1 className="text-7xl text-[#100f3a] font-black">Justin Bieber</h1>
       </div>
       <div className="pt-10">
         <h3 className="text-[#100f3a] font-bold">Description</h3>

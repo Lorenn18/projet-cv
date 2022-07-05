@@ -1,20 +1,17 @@
 import React from "react";
 
-export default function ServicesCard1() {
+export default function ServicesCard1({img, title, description}) {
   return (
-    <div className="w-96 flex space-x-5">
+    <div className="max-w-sm flex space-x-5">
       <div className="">
-        <img src="alarme.webp" alt="" className="w-[200px]" />
+        <img src={img} alt="" className="w-[150px]" />
       </div>
       <div className="">
         <h3 className="text-xl text-[#100f3a] font-semibold pb-2">
-          Développement de site web
+         {title}
         </h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
-          voluptate expedita voluptatem minus omnis adipisci sint molestias
-          corporis, repudiandae deserunt impedit a in facilis quibusdam,
-          consequatur recusandae, sunt magni natus.
+          {description}
         </p>
       </div>
     </div>

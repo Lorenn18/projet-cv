@@ -1,13 +1,15 @@
 import React from 'react'
 import HomeSection1 from '../components/HomePage/HomeSection1';
 import Layout from '../components/layouts/Layout';
+import SkillSection from '../components/skillsPage/SkillSection';
 
 export default function Skills() {
   return (
     <Layout>
-      <div className="">
+      <main className="flex">
         <HomeSection1 />
-      </div>
+        <SkillSection/>
+      </main>
     </Layout>
   );
 }

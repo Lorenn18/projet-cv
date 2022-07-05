@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function PortfolioSection2() {
   return (
     <div className="pt-14 pl-16">
-      <h1 className="text-7xl text-[#100f3a] font-bold">Mon Portfolio</h1>
+      <h1 className="text-7xl text-[#100f3a] font-black">Mon Portfolio</h1>
       <div className="py-10 pl-2">
         <Link to="/portfolio">
           <ul className="flex space-x-10 font-semibold">
