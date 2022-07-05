@@ -4,6 +4,8 @@ import Error from "./pages/Error";
 import Home from "./pages/Home";
 import Services from "./pages/Services";
 import Portfolio from "./pages/Portfolio";
+import Testimonials from "./pages/Testimonials";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
         <Route path="/skills" element={<Skills />} />
         <Route path="/services" element={<Services />} />
         <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/testimonials" element={<Testimonials />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<Error />} />
       </Routes>
     </Router>
