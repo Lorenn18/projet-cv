@@ -1,4 +1,8 @@
 import React from "react";
+import HomeProgressbar from "./HomeProgressbar";
+import HomeProgressbar2 from "./HomeProgressbar2";
+import HomeProgressbar3 from "./HomeProgressbar3";
+import HomeProgressbar4 from "./HomeProgressbar4";
 
 export default function HomeSection2() {
   return (
@@ -20,8 +24,11 @@ export default function HomeSection2() {
           quod officia nemo.
         </p>
       </div>
-      <div className="">
-        
+      <div className="flex space-x-20 pt-10">
+        <HomeProgressbar />
+        <HomeProgressbar2 />
+        <HomeProgressbar3 />
+        <HomeProgressbar4 />
       </div>
     </div>
   );
