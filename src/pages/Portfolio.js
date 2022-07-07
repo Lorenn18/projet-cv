@@ -6,7 +6,7 @@ import PortfolioSection2 from '../components/portfolioPage/PortfolioSection2';
 export default function Portfolio() {
   return (
     <Layout>
-      <main className="flex">
+      <main className="md:flex">
         <HomeSection1 />
         <PortfolioSection2/>
       </main>
