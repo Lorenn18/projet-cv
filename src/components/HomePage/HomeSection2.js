@@ -6,12 +6,17 @@ import HomeProgressbar4 from "./HomeProgressbar4";
 
 export default function HomeSection2() {
   return (
-    <div className="pt-14 pl-16">
+    <div className="pt-14 md:pl-16 p-2">
       <div>
         <h2 className="text-[#7a798c]">Développeur full stack</h2>
-        <h1 className="text-7xl text-[#100f3a] font-black">Justin Bieber</h1>
+        <h1
+          className="text-3xl
+         md:text-7xl text-[#100f3a] font-black"
+        >
+          Justin Bieber
+        </h1>
       </div>
-      <div className="pt-10">
+      <div className="pt-10 ">
         <h3 className="text-[#100f3a] font-bold">Description</h3>
         <p className="text-[#8d8b9b] py-6">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus cum
@@ -24,7 +29,7 @@ export default function HomeSection2() {
           quod officia nemo.
         </p>
       </div>
-      <div className="flex space-x-20 pt-10">
+      <div className=" md:flex md:space-x-20 space-y-16 pt-10 pb-5 md:pb-2 md:space-y-0 pl-24 ">
         <HomeProgressbar />
         <HomeProgressbar2 />
         <HomeProgressbar3 />

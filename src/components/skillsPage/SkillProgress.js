@@ -2,7 +2,7 @@ import React from "react";
 
 export default function SkillProgress() {
   return (
-    <div className="flex space-x-10 pt-16">
+    <div className="md:flex md:space-x-10 pt-16 pb-5">
       <div>
         {/* progress html */}
 

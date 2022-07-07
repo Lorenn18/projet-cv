@@ -6,7 +6,7 @@ import SkillSection from '../components/skillsPage/SkillSection';
 export default function Skills() {
   return (
     <Layout>
-      <main className="flex">
+      <main className="md:flex">
         <HomeSection1 />
         <SkillSection/>
       </main>

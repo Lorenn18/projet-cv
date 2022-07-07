@@ -43,7 +43,7 @@ export default function Navigation() {
             Smith<span className="text-indigo-400">.</span>CV
           </h2>
         </div>
-        <div className="">
+        <div className="hidden md:block">
           <ul className="bg-[#100f3a] flex space-x-5 text-white  divide-x  leading-[2.6] m-3 px-4">
             {items.map((item) => (
               <Link to={item.slug} key={item.id}>

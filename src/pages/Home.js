@@ -6,10 +6,10 @@ import Layout from "../components/layouts/Layout";
 export default function Home() {
   return (
     <Layout>
-      <main className="flex">
+      <div className="md:flex">
         <HomeSection1 />
         <HomeSection2/>
-      </main>
+      </div>
     </Layout>
   );
 }
